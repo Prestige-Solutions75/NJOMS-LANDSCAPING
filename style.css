@@ -1,0 +1,27 @@
+/* Custom Hero Background Overlay Matching watermarked_img_14243795546442391713.png */
+.premium-hero {
+  background: linear-gradient(rgba(11, 37, 17, 0.82)), rgba(11, 37, 17, 0.88)), url('https://images.unsplash.com/photo-1508873696983-2df5199e4009?auto=format&fit=crop&w=1920&q=80');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Custom Brand Typography Smoothness */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Micro-animations to boost lead conversions */
+.animate-pulse-slow {
+  animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .6; }
+}
+
+/* Hover glow states for buttons */
+.cta-glow:hover {
+  box-shadow: 0 10px 25px -5px rgba(16, 185, 129, 0.4);
+}
